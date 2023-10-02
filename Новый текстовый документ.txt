@@ -1,0 +1,141 @@
+#1
+number = int(input("Введите первое число: "))
+print(number)
+print(number + 1)
+print(number + 2)
+
+#2
+
+a = int(input())
+b = int(input())
+c = int(input())
+print(a + b + c)
+
+#3
+
+a = int(input('Введите длину ребра куба: '))
+
+v = a ** 3
+
+s = 6 * a ** 2
+
+print('Если ребро куба равно', a, "то его обьем", v, "и площадь", s,)
+
+
+#4
+
+a = int(input())
+b = int(input())
+f = 3 * (a + b) ** 3 + 275 * b ** 2 - 127 * a - 41
+print(f)
+
+#5
+
+number = int(input('Введите целое число: '))
+
+a = number + 1
+b = number - 1
+
+print('Следующее число: ', a)
+print('Предыдущее число: ', b)
+
+#6
+
+a = int(input('сумма :'))
+b = int(input('сумма :'))
+c = int(input('сумма :'))
+d = int(input('сумма :'))
+
+x = 3 * (a + b+ c+ d)
+
+print(x)
+
+
+#7
+
+a_1= int(input('первый :'))
+d = int(input('второй :'))
+c = int(input('третий :'))
+x = a_1 + d * (c - 1)
+print(x)
+
+
+#8
+
+x = int(input())
+print(x,"---",2*x,"---",3*x,"---",4*x,"---",5*x)
+
+
+#9
+
+a = int(input())
+b = int(input())
+vvod = a // b
+po_res = a % b
+print(vvod)
+print(po_res)
+
+#10
+
+a = int(input())
+x = (a + 1)
+print(x // 2)
+
+
+
+#11
+
+minut= int(input("Введите количество минут: "))
+
+hours = minut // 60
+
+
+print(f" {hours} час(а) и {minut} мин(ута).")
+
+
+
+#12
+
+number = int(input('Ведите числа:'))
+
+a = number // 100
+b = (number % 100) // 10
+c = number % 10
+
+summa = a + b + c
+x = a * b * c
+
+print('Сумма цифр:', summa)
+print('Произведение цифр:', x)
+
+
+
+#13
+
+a = int(input(':'))
+
+print('   _ ~ _    ' * a)
+print('  ( o o )   ' * a)
+print(' /   v   \  ' * a)
+print('/(   _   )\ ' * a)
+print('  ^^   ^^   ' * a)
+
+
+
+#14
+
+
+a = int(input())
+number = a
+ten_digit = str(number)[1]
+print(ten_digit)
+
+
+
+
+#15
+
+a = int(input())
+hours = a // 60
+minutes = a % 60
+print(hours % 24, minutes)
